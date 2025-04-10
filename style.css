@@ -1,0 +1,110 @@
+* {
+    padding: 0px;
+    margin: 0px;
+ }
+ 
+ .header {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0px;
+    border-bottom: 1px solid grey;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: white;
+    z-index: 190;
+ }
+
+
+.logo {
+    width: 300px;
+}
+
+.middle-section {
+    flex: 1;
+    max-width: 200px;
+    display: flex;
+    align-items: center;
+    margin-right: 70px;
+}
+.search-border {
+    border: 1px solid black;
+}
+.search-bar {
+    width: 100%;
+    padding: 4px;
+    border-radius: none;
+    border: none;
+    border-bottom: 1px solid black;
+    box-shadow: 1px 2px 3px 0.3px ;
+    border-left: 1px solid black;
+    outline: none;
+    margin-right: -1px;
+}
+.search img {
+    height: 10px;
+}
+button {
+    border-radius: 0px;
+    padding: 1px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.right-section {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.right-section div {
+    width: 30px;
+}
+.right-section div img {
+    width: 100%;
+    cursor: pointer;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.right-section a p {
+    font-weight: 600;
+    cursor: pointer;
+}
+.right-section a p:hover {
+    color: gray;
+}
+
+.body-border {
+    margin-top: 300px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 4px;
+}
+.text-background {
+    background-color: rgb(243, 243, 243);
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    z-index: 200;
+}
+
+.product-box {
+    margin-top: 10px;
+    border-style: dashed;
+    display: inline-block;
+}
+.product-size {
+    height: 400px;
+}
+.product-box p {
+    margin-left: 50px;
+}
+
+.image-box {
+    display: flex;
+}
